@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>cipher</title>
+</head>
+<body>
+    <header>
+        <h1>
+            CESAR CODE
+        </h1>
+    </header>
+    <section>
+        <div id="in">
+            <p>
+                enter text: <input type="text" name="text" id="text">
+                key: <input type="number" name="key" id="key" min="1" max="25">
+            </p>
+            <p id="btn">
+                <input type="button" value="encript" onclick="cript()" class="btn">
+                <input type="button" value="decript" onclick="decript()" class="btn">
+            </p>
+        </div>
+        <div id="out">
+            <p id="result"></p>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
